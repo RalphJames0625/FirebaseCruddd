@@ -15,7 +15,7 @@ document.getElementById("insert").onclick = function () {
     .database()
     .ref("student/" + rollV)
     .set({
-      rollNo: rollV,
+      ID: rollV, 
       name: nameV,
       gender: genderV,
       address: addressV,
